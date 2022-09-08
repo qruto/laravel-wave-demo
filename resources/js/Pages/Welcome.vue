@@ -60,7 +60,7 @@ setInterval(() => {
                 </picture>
             </a>
         </div>
-        <div class="mt-4 text-xs text-center dark:text-white">
+        <div class="mt-4 whitespace-pre-wrap text-xs text-center dark:text-white">
             Streaming from Twitter with
             <a
                 target="_blank"
