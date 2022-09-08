@@ -6,11 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "decodelabs/chirp": "^0.8.1",
         "guzzlehttp/guzzle": "^7.2",
         "inertiajs/inertia-laravel": "^0.6.3",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^2.8",
         "laravel/tinker": "^2.7",
+        "qruto/laravel-wave": "^0.5.2",
+        "spatie/laravel-twitter-streaming-api": "^2.1",
         "tightenco/ziggy": "^1.0"
     },
     "require-dev": {
@@ -21,7 +24,8 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "spatie/laravel-ignition": "^1.0",
+        "spatie/laravel-ray": "^1.30"
     },
     "autoload": {
         "psr-4": {
