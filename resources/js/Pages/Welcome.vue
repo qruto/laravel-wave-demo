@@ -28,7 +28,7 @@ setInterval(() => {
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Laravel Wave Stream" />
 
     <div
         class="relative flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4 pb-16 pt-12 dark:bg-gray-900"
