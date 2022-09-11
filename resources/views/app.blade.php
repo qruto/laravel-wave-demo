@@ -12,6 +12,7 @@
         <!-- Scripts -->
         @routes
         @vite('resources/js/app.js')
+        {!! SEO::generate() !!}
         @inertiaHead
     </head>
     <body class="font-sans antialiased">

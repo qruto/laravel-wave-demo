@@ -3,7 +3,6 @@
 namespace App\Console\Commands;
 
 use App\Events\NewTweet;
-use App\TweetView;
 use DecodeLabs\Chirp\Parser;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
@@ -39,7 +38,8 @@ class TwitterStream extends Command
 
         $tags = [
             '#laravel',
-            // '#php',
+            '#php',
+            '#javascript',
             '#vuejs',
             '#reactjs',
             '@reactjs',
@@ -47,14 +47,14 @@ class TwitterStream extends Command
             '@laravelphp',
             '@laravelnews',
             '@LaravelLinks',
-            '@LaraconOnline',
+            // '@LaraconOnline',
             '@LaravelLivewire',
             '@Alpine_JS',
             '@inertiajs',
             '#inertiajs',
             '@tailwindcss',
-            '@tailwindui',
-            '@pestphp',
+            // '@tailwindui',
+            // '@pestphp',
             '#tailwindcss',
             // '#html',
             // '#css',
