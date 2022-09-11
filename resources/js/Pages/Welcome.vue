@@ -33,47 +33,53 @@ setInterval(() => {
     <div
         class="relative flex min-h-screen flex-col items-center justify-center bg-gray-100 px-4 pb-16 pt-12 dark:bg-gray-900"
     >
-        <div class="text-center">
+        <a
+            target="_blank"
+            href="https://github.com/qruto/laravel-wave"
+            class="group block text-center"
+        >
             <span
-                class="relative left-px top-2 block pl-3 text-xs dark:text-white"
+                class="relative left-px top-2 block pl-3 text-xs group-hover:cursor-pointer group-hover:underline dark:text-white"
                 >Broadcasted with</span
             >
-            <a target="_blank" href="https://github.com/qruto/laravel-wave">
-                <picture>
-                    <source
-                        media="(prefers-color-scheme: dark)"
-                        srcset="
-                            https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-dark.svg
-                        "
-                    />
-                    <source
-                        media="(prefers-color-scheme: light)"
-                        srcset="
-                            https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg
-                        "
-                    />
-                    <img
-                        alt="Laravel Wave Logo"
-                        src="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg"
-                        width="200"
-                    />
-                </picture>
-            </a>
-        </div>
-        <div class="mt-4 whitespace-pre-wrap text-xs text-center dark:text-white">
+            <picture>
+                <source
+                    media="(prefers-color-scheme: dark)"
+                    srcset="
+                        https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-dark.svg
+                    "
+                />
+                <source
+                    media="(prefers-color-scheme: light)"
+                    srcset="
+                        https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg
+                    "
+                />
+                <img
+                    alt="Laravel Wave Logo"
+                    src="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg"
+                    width="200"
+                />
+            </picture>
+        </a>
+        <div
+            class="mt-4 whitespace-pre-wrap text-center text-xs dark:text-white"
+        >
             Streaming from Twitter with
             <a
                 target="_blank"
-                class="text-blue-500 hover:underline font-bold"
+                class="font-bold text-blue-500 hover:underline"
                 href="https://github.com/spatie/laravel-twitter-streaming-api"
             >
                 spatie/laravel-twitter-streaming-api
             </a>
         </div>
         <div
-            class="relative text-center mt-8 text-lg italic text-gray-600 dark:text-gray-400"
+            class="relative mt-8 text-center text-lg italic text-gray-600 dark:text-gray-400"
         >
-            Waiting for new tweets from web community<span class="absolute">{{ dots }}</span>
+            Waiting for new tweets from web community<span class="absolute">{{
+                dots
+            }}</span>
         </div>
         <div class="mt-3 flex flex-col space-y-8">
             <article
