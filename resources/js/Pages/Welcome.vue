@@ -1,19 +1,13 @@
 <script setup>
-import { Head, Link } from "@inertiajs/inertia-vue3";
+import { Head } from "@inertiajs/inertia-vue3";
 import { ref } from "vue";
-
-defineProps({
-    canLogin: Boolean,
-    canRegister: Boolean,
-    laravelVersion: String,
-    phpVersion: String,
-});
 
 const tweets = ref([]);
 
 window.Echo.channel("twitter-stream").listen("NewTweet", (e) =>
     tweets.value.unshift(e)
 );
+
 const dots = ref("");
 
 setInterval(() => {

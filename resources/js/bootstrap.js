@@ -20,9 +20,6 @@ window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
 import Echo from "laravel-echo";
 
-// import Pusher from 'pusher-js';
-// window.Pusher = Pusher;
-
 import { WaveConnector } from "laravel-wave";
 
 window.Echo = new Echo({ broadcaster: WaveConnector });
