@@ -39,6 +39,8 @@ window.Echo.channel("twitter-stream").listen("NewTweet", (e) =>
 );
 ```
 
+Broadcasting a simple public event [NewTweet](https://github.com/qruto/laravel-wave-demo/blob/main/app/Events/NewTweet.php) fires.
+
 ## Installation
 
 ```bash
