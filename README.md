@@ -48,3 +48,18 @@ composer install
 npm install
 npm run dev
 ```
+
+Fill twitter API credentials in _.env_ file.
+
+```ini
+TWITTER_HANDLE=
+TWITTER_API_KEY=
+TWITTER_API_SECRET_KEY=
+TWITTER_BEARER_TOKEN=
+```
+
+Run stream listener:
+
+```bash
+php artisan twitter:stream
+```
