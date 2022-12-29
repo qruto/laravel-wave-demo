@@ -29,6 +29,18 @@
             />
         </picture>
     </a>
+    <div class="text-center mt-4">
+        <a
+            class="block text-blue-500 hover:underline"
+            href="https://github.com/qruto/laravel-wave" target="_blank">
+            📦 package repo
+        </a>
+        <a
+            class="block mt-2 text-blue-500 hover:underline"
+            href="https://github.com/qruto/laravel-wave-demo" target="_blank">
+            🌐 demo application repo
+        </a>
+    </div>
     <div
         class="mt-4 whitespace-pre-wrap text-center text-xs dark:text-white"
     >

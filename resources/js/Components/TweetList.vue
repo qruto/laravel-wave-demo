@@ -11,7 +11,7 @@ window.Echo.channel("twitter-stream").listen("NewTweet", (e) =>
 <template>
     <div class="mt-3 flex flex-col space-y-8">
         <article
-            class="block rounded border border-gray-200 py-6 px-4 shadow-lg dark:border-gray-800 sm:px-6"
+            class="block rounded-lg border border-gray-200 py-6 px-4 shadow-lg dark:border-gray-800 sm:px-6"
             v-for="(tweet, index) in tweets"
             :key="index"
         >
