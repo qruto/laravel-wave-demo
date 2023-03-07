@@ -10,23 +10,21 @@
             Broadcasted with
         </span>
         <picture>
-            <source
+            <source 
+                width="350" 
                 media="(prefers-color-scheme: dark)"
-                srcset="
-                    https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-dark.svg
-                "
-            />
+                srcset="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-dark.png"
+            >
             <source
+                width="350"
                 media="(prefers-color-scheme: light)"
-                srcset="
-                    https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg
-                "
-            />
+                srcset="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.png"
+            >
             <img
                 alt="Laravel Wave Logo"
-                src="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.svg"
-                width="200"
-            />
+                src="https://github.com/qruto/laravel-wave/raw/HEAD/art/logo-light.png"
+                width="350"
+            >
         </picture>
     </a>
     <div class="text-center mt-4">
